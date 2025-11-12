@@ -42,3 +42,4 @@ Also check  Cypress Offical Notes
 ![Cypress Test Runner](CuraApplication.png)
 ![Cypress Test Runner](TestCase.png)
 ![Cypress Test Runner](PassedTests.png)
+![Cypress Test Runner](API.png)
