@@ -24,7 +24,6 @@ describe("HTTP Requests", () => {
         "Content-Type": "application/json; charset=UTF-8",
       },
     }).then((response) => {
-      // JSONPlaceholder may return 201 for created resources
       expect([200, 201]).to.include(response.status);
       expect(response.body).to.include({
         title: requestBody.title,
